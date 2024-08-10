@@ -1,8 +1,8 @@
-# Loop Infinito♾
+# ♾Loop Infinito♾
 
-Em Python, um loop infinito ocorre quando  um laço (e.g. 'while' ou 'for') continua a executar indefinidamente, sem nunca encontrar uma condição que o faça parar. Isso pode acontecer, por exemplo, se a condição de término do laço nunca se tornar falsa ou se houver um erro na lógica do laço. 
+Em Python, um loop infinito ocorre quando  um laço (e.g. _while_ ou _for_) continua a executar indefinidamente, sem nunca encontrar uma condição que o faça parar. Isso pode acontecer, por exemplo, se a condição de término do laço nunca se tornar falsa ou se houver um erro na lógica do laço. 
 
-## 📌Exemplo de Loop Infinito com _while_
+## 🎯 Exemplo de Loop Infinito com _while_
 ![image](https://github.com/user-attachments/assets/eb675f29-c703-4df5-9d91-53cef18c1fce)
 
 
@@ -12,7 +12,7 @@ No exemplo acima, o valor de contador nunca é incrementado, o que significa que
 
 ### 🚨Loops infinitos podem causar problemas, como travamentos de programa ou consumo excessivo de recursos do sistema🚨
 
-## 🆘 Como Evitar Loops Infinitos
+## 🆘 Como Evitar Loops Infinitos  
 | Estratégias    | Detalhamento |
 | ------ | ---------|
 🧩 **Certifique-se de que a condição se torne falsa**| Ao usar _while_, garanta que a condição de término seja atingida em algum momento. Isso geralmente envolve modificação de variáveis dentro do loop para que a condição seja satisfeita.  [https://github.com/magalint/To-infinity-and-beyond...-Evitando-loops-infinitos-/issues/2#issue-2459295591] |
