@@ -14,7 +14,7 @@ No exemplo acima, o valor de contador nunca é incrementado, o que significa que
 ## 🆘 Como Evitar Loops Infinitos
 | Estratégias    | Detalhamento |
 | ------ | ---------|
-🧩 **Certifique-se de que a condição se torne falsa**| Ao usar _while_, garanta que a condição de término seja atingida em algum momento. Isso geralmente envolve modificação de variáveis dentro do loop para que a condição seja satisfeita. Issue#2|
+🧩 **Certifique-se de que a condição se torne falsa**| Ao usar _while_, garanta que a condição de término seja atingida em algum momento. Isso geralmente envolve modificação de variáveis dentro do loop para que a condição seja satisfeita. **Issue#2** [https://github.com/magalint/To-infinity-and-beyond...-Evitando-loops-infinitos-/issues/3#issue-2459296807]|
 🧩 **Use _break_ para sair do loop** | O comando _break_ pode ser usado para sair de um loop antecipadamente, independentemente da condição. Isso é útil se você estiver esperando uma condição específica que não seja facilmente expressa na própria condição do _while_. Issue#3 |
 🧩 **Limite iterações com contadores** | Em alguns casos, é útil incluir um contador que limite o número máximo de iterações, mesmo que a condição principal do loop não tenha sido atendida. #Issue#4|
 🧩 **Evite dependências externas descontroladas** | Se o loop depende de fatores externos, como a leitura de dados de um arquivo ou uma entrada do usuário, certifique-se de que há uma condição de escape clara.
