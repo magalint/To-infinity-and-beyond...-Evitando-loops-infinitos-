@@ -19,8 +19,6 @@ No exemplo acima, o valor de contador nunca é incrementado, o que significa que
 🧩 **Limite iterações com contadores** | Em alguns casos, é útil incluir um contador que limite o número máximo de iterações, mesmo que a condição principal do loop não tenha sido atendida. |
 🧩 **Evite dependências externas descontroladas** | Se o loop depende de fatores externos, como a leitura de dados de um arquivo ou uma entrada do usuário, certifique-se de que há uma condição de escape clara.
 
-```
-💻Bons estudos💻
-```
+
 
 
