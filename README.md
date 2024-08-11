@@ -23,7 +23,7 @@ No exemplo acima, o valor de contador nunca é incrementado, o que significa que
 [![magalint's GitHub stats](https://github-readme-stats.vercel.app/api?username=magalint)](https://github.com/magalint/github-readme-stats)
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=magalint)](https://github.com/magalint/github-readme-stats)
+
 
 
 
