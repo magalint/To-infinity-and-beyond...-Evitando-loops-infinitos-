@@ -4,13 +4,15 @@ Em Python, um loop infinito ocorre quando  um laço (e.g. _while_ ou _for_) cont
 
 ## 🎯 Exemplo de Loop Infinito com _while_
 ![image](https://github.com/user-attachments/assets/eb675f29-c703-4df5-9d91-53cef18c1fce)
-
+[https://github.com/magalint/To-infinity-and-beyond...-Evitando-loops-infinitos-/issues/1#issuecomment-2282775804]
 
 ![image](https://github.com/user-attachments/assets/35b861eb-a2d9-4442-97b9-71da089206e2)
 
 No exemplo acima, o valor de contador nunca é incrementado, o que significa que a condição contador < 5 permanecerá verdadeira para sempre😱, fazendo com que o laço _while_ nunca termine.
 
-### 🚨Loops infinitos podem causar problemas, como travamentos de programa ou consumo excessivo de recursos do sistema🚨
+> [!WARNING]
+> Loops infinitos podem causar problemas, como travamentos de programa ou consumo excessivo de recursos do sistema.
+> 
 
 ## 🆘 Como Evitar Loops Infinitos  
 | Estratégias    | Detalhamento |
