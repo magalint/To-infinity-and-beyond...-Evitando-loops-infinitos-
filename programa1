@@ -1,0 +1,22 @@
+```
+
+def detectar_loop_infinito(condicao):
+    # Para definir um número máximo de iterações como um limite de segurança
+    MAX_ITERACOES = 1000
+
+    iteracoes = 0
+    while condicao:
+        iteracoes += 1
+        
+        # Aqui é realizada a verificação se o número de iterações excedeu o limite
+        if iteracoes > MAX_ITERACOES:
+            resposta = input('O loop pode estar em um estado de loop infinito. Deseja continuar? (s/n): ')
+            if resposta.lower() != 's':
+                print('Execução do loop cancelada.')
+                break
+            
+# Exemplo de uso
+condicao_loop = True # Aqui, é possível alterar conforme a necessidade
+detectar_loop_infinito(condicao_loop)
+
+```
