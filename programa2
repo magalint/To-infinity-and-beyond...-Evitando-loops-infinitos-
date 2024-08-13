@@ -1,0 +1,10 @@
+Explicação:
+detect_infinite_loop_condition: A função recebe uma condição como string, verifica repetidamente se a condição ainda é verdadeira e incrementa um contador de iterações. Se o número de iterações ultrapassar um limite (como max_iterations), o programa alerta sobre a possibilidade de um loop infinito.
+
+Exemplo Prático: Define uma condição 'i < 10'. Se não houver alteração na variável i dentro do loop, ele continuará infinito. Neste código, simulou-se a alteração da variável i com a linha exec("global i; " + "i += 1"), mas em um caso real, o programador poderia se esquecer de alterar i, resultando em um loop infinito.
+
+Alerta: Se o loop ultrapassar max_iterations, a função imprime uma mensagem de alerta.
+
+
+Limitações: 
+Este programa funciona apenas para casos muito simples e não considera loops mais complexos, onde a condição de parada depende de fatores externos ou de cálculos mais intrincados. Em muitos casos reais, a análise estática de código seria necessária, mas ainda assim, nem sempre seria possível determinar com certeza se um loop é infinito.
